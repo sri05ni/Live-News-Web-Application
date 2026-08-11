@@ -5,7 +5,7 @@ function Navbar() {
     <div>
       <nav className="navbar bg-body-tertiary bg-dark p-3" data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             DailyScope
           </a>
         </div>
