@@ -37,7 +37,7 @@ export default class Newsitems extends Component {
             {/* <div style={{ height: "2px", backgroundColor: "black", width: "100%" }}></div> */}
             <hr style={{ borderTop: "2px solid grey", opacity: .5 }} />
             <p>Published At:{date}</p>
-            <a href="" className="btn btn-danger">Read More</a>
+            <a href="{linkurl}" className="btn btn-danger">Read More</a>
 
           </div>
         </div>
