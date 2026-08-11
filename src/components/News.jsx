@@ -97,11 +97,11 @@ export default class News extends Component {
     };
   }
   handleprev=async()=>{
-    {
+    
       this.setState({
         loading:true
       })
-    }
+    
  let url =
       `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
@@ -114,11 +114,11 @@ export default class News extends Component {
     });
   }
   handlenext=async()=>{
-    {
+    
       this.setState({
         loading:true
       })
-    }
+    
  let url =
       `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
