@@ -103,7 +103,7 @@ export default class News extends Component {
       })
     
  let url =
-      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parseData = await data.json();
     
@@ -120,7 +120,7 @@ export default class News extends Component {
       })
     
  let url =
-      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parseData = await data.json();
     this.setState({
@@ -132,7 +132,7 @@ export default class News extends Component {
   
   async componentDidMount() {
     let url =
-      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     this.setState({
         loading:true
       })
