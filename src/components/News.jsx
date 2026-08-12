@@ -108,7 +108,7 @@ export default class News extends Component {
     let parseData = await data.json();
     
     this.setState({
-      articles: parseData.articles,
+      articles: parseData.articles|| [],
       page:this.state.page-1,
       loading:false
     });
