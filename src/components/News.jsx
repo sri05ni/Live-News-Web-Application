@@ -5,76 +5,76 @@ import Spinner from "./Spinner";
 
 
 export default class News extends Component {
-  // articles = [
-  //   {
-  //     source: {
-  //       id: "bbc-news",
-  //       name: "BBC News",
-  //     },
-  //     author: "BBC News",
-  //     title: "Global Markets Show Strong Growth Amid Economic Changes",
-  //     description:
-  //       "Global markets have shown positive movement as investors respond to recent economic developments.",
-  //     url: "https://www.bbc.com/news",
-  //     urlToImage:
-  //       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
-  //     publishedAt: "2026-08-10T06:30:00Z",
-  //     content:
-  //       "Global markets showed strong growth today.\r\nInvestors reacted positively to recent economic developments.\r\nTechnology and banking stocks recorded major gains.\r\nExperts expect markets to remain closely watched in the coming days.",
-  //   },
+  articles = [
+    {
+      source: {
+        id: "bbc-news",
+        name: "BBC News",
+      },
+      author: "BBC News",
+      title: "Global Markets Show Strong Growth Amid Economic Changes",
+      description:
+        "Global markets have shown positive movement as investors respond to recent economic developments.",
+      url: "https://www.bbc.com/news",
+      urlToImage:
+        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
+      publishedAt: "2026-08-10T06:30:00Z",
+      content:
+        "Global markets showed strong growth today.\r\nInvestors reacted positively to recent economic developments.\r\nTechnology and banking stocks recorded major gains.\r\nExperts expect markets to remain closely watched in the coming days.",
+    },
 
-  //   {
-  //     source: {
-  //       id: "cnn",
-  //       name: "CNN",
-  //     },
-  //     author: "CNN News",
-  //     title: "New Technology Innovations Are Changing Everyday Life",
-  //     description:
-  //       "New technological developments are helping people work, communicate and live more efficiently.",
-  //     url: "https://www.cnn.com",
-  //     urlToImage:
-  //       "https://images.unsplash.com/photo-1518770660439-4636190af475",
-  //     publishedAt: "2026-08-10T08:15:00Z",
-  //     content:
-  //       "Technology companies continue to introduce innovative products.\r\nArtificial intelligence is becoming part of everyday applications.\r\nSmart devices are helping users automate daily tasks.\r\nExperts believe technology will continue to transform modern life.",
-  //   },
+    {
+      source: {
+        id: "cnn",
+        name: "CNN",
+      },
+      author: "CNN News",
+      title: "New Technology Innovations Are Changing Everyday Life",
+      description:
+        "New technological developments are helping people work, communicate and live more efficiently.",
+      url: "https://www.cnn.com",
+      urlToImage:
+        "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      publishedAt: "2026-08-10T08:15:00Z",
+      content:
+        "Technology companies continue to introduce innovative products.\r\nArtificial intelligence is becoming part of everyday applications.\r\nSmart devices are helping users automate daily tasks.\r\nExperts believe technology will continue to transform modern life.",
+    },
 
-  //   {
-  //     source: {
-  //       id: "the-hindu",
-  //       name: "The Hindu",
-  //     },
-  //     author: "The Hindu",
-  //     title: "India Focuses on New Digital Development Initiatives",
-  //     description:
-  //       "India is expanding its digital infrastructure and encouraging technology-based development.",
-  //     url: "https://www.thehindu.com",
-  //     urlToImage:
-  //       "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
-  //     publishedAt: "2026-08-10T10:00:00Z",
-  //     content:
-  //       "India continues to expand its digital infrastructure.\r\nNew initiatives are focusing on technology and innovation.\r\nDigital services are becoming more accessible to citizens.\r\nThe government is encouraging startups and technology development.",
-  //   },
+    {
+      source: {
+        id: "the-hindu",
+        name: "The Hindu",
+      },
+      author: "The Hindu",
+      title: "India Focuses on New Digital Development Initiatives",
+      description:
+        "India is expanding its digital infrastructure and encouraging technology-based development.",
+      url: "https://www.thehindu.com",
+      urlToImage:
+        "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+      publishedAt: "2026-08-10T10:00:00Z",
+      content:
+        "India continues to expand its digital infrastructure.\r\nNew initiatives are focusing on technology and innovation.\r\nDigital services are becoming more accessible to citizens.\r\nThe government is encouraging startups and technology development.",
+    },
 
-  //   {
-  //     source: {
-  //       id: "techcrunch",
-  //       name: "TechCrunch",
-  //     },
-  //     author: "TechCrunch",
-  //     title: "AI Startups Attract New Investments From Technology Companies",
-  //     description:
-  //       "Artificial intelligence startups are receiving increased attention from investors around the world.",
-  //     url: "https://techcrunch.com",
-  //     urlToImage:
-  //       "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-  //     publishedAt: "2026-08-10T12:45:00Z",
-  //     content:
-  //       "Artificial intelligence startups are attracting new investments.\r\nCompanies are developing AI tools for different industries.\r\nInvestors are showing interest in practical AI applications.\r\nThe growing AI ecosystem is creating new opportunities for developers.",
-  //   },
-  // ];
-  articles = [];
+    {
+      source: {
+        id: "techcrunch",
+        name: "TechCrunch",
+      },
+      author: "TechCrunch",
+      title: "AI Startups Attract New Investments From Technology Companies",
+      description:
+        "Artificial intelligence startups are receiving increased attention from investors around the world.",
+      url: "https://techcrunch.com",
+      urlToImage:
+        "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      publishedAt: "2026-08-10T12:45:00Z",
+      content:
+        "Artificial intelligence startups are attracting new investments.\r\nCompanies are developing AI tools for different industries.\r\nInvestors are showing interest in practical AI applications.\r\nThe growing AI ecosystem is creating new opportunities for developers.",
+    },
+  ];
+  // articles = [];
 
   static defaultProps = {
     country: "us",
